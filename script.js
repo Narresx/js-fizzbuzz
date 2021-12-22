@@ -23,5 +23,20 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz
 let listNumber = '';
 
 for (let i = 1; i <= 100; i++) {
-    console.log(i)
+    console.log(i);
+
+    if (i = !isNaN) {
+        i = i;
+        console.log(i);
+    }
+
+    if ((i % 3 === 0) || isNaN) {
+        i = 'Fizz';
+        console.log(i);
+    }
+
+    if ((i % 5 === 0) || isNaN) {
+        i = 'Buzz';
+        console.log(i);
+    }
 }
