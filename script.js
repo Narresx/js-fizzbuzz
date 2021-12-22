@@ -18,32 +18,21 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz
 
 */
 
-// Punto 1
+// Punto 1 e 2
 
-let listNumber = '';
+let numberElement = '';
 
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
-
-    if (i = !isNaN) {
-        i = i;
+    if ((i % 3 == 0) && (i % 5 == 0))
+        console.log("FizzBuzz");
+    else if (i % 3 == 0)
+        console.log("Fizz");
+    else if (i % 5 == 0)
+        console.log("Buzz");
+    else
         console.log(i);
-    }
-
-    if ((i % 3 === 0) || isNaN) {
-        i = 'Fizz';
-        console.log(i);
-    }
-
-    if ((i % 5 === 0) || isNaN) {
-        i = 'Buzz';
-        console.log(i);
-    }
-
-    if ((i % 3 === 0) || isNaN) && ((i % 5 === 0) || isNaN) {
-        i = 'FizzBuzz';
-        console.log(i);
-    }
 }
 
-console.log(listNumber)
+// Punto 3
+
+numberElement.innerHTML = document.getElementById('result');
